@@ -10,7 +10,7 @@ if amount>=0 and amount<= 1000000.00:
             print("{} nota(s) de R$ {:.2f}".format(int(x),i))
         else:    
             print("0 nota(s) de R$ {:.2f}".format(i))
-print("\nMOEDAS:")
+print("MOEDAS:")
 for j in coins:
         if amount>=j:
             y=int(amount//j)
