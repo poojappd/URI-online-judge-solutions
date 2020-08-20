@@ -1,0 +1,5 @@
+Ename=input()
+salary=float(input())
+sale_total=float(input())
+final_salary=salary+((15/100)*sale_total)
+print("TOTAL = R$ {:.2f}".format(final_salary))
